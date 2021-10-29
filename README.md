@@ -1,4 +1,5 @@
 # MovieWeb
+![Web Preview](Screenshot/Web Screenshot.png)
 3rd Meet GDSC Exercise
 
 This web is currently designed to fulfill the GDSC Exercise
