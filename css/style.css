@@ -126,7 +126,7 @@ nav button[type="submit"] {
 /* Movie List Styling */
 
 .movie-list {
-    margin: 50px 100px 0 100px;
+    margin: 100px 100px 0 250px;
 }
 
 .movie-list h1 {
@@ -143,13 +143,22 @@ nav button[type="submit"] {
     flex-direction: row;
     margin: 20px 0 20px 0;
 }
+
 .movie-list .movie-list-container div img {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
 }
 
 .movie-list .movie-list-container div div {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+}
+
+/* Footer Styling */
+.web-footer {
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin: 100px 0 100px 0;
 }
