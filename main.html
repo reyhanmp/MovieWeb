@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>MoviStar</title>
+        <link rel ="icon" href ="./Assets/Star.png">
+        <link rel="stylesheet" href="./css/style.css">     
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="header">
+            <nav>
+                <ul class="nav-left">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                
+                <input type="text" placeholder="search..." name="search"/>
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </nav>
+
+            <div class="web-content">
+                <div class="featured-movie">
+                    <div class="left-box">
+                        <h1>FEATURED MOVIE</h1>
+                        <br>
+                        <h2>The Godfather</h2>
+                        <p>A film made in 2012 telling a story about a man who cant be moved</p>
+                        <p>Cast: </p>
+                        
+
+                        <a href="#">Watch Now!</a>
+                        <a href="#">Download</a>
+                    </div>
+
+                    <div class="right-box">
+                        <img src="Assets/MoviePics/TheGodfather.jpg"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movie-list">
+                <h1>MOVIE LIST</h1>
+                <div id="movieList" class="movie-list-container">
+
+                </div>
+            </div>
+        </div>
+
+        
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
